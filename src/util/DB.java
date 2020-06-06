@@ -18,7 +18,7 @@ public class DB {
 
     public DB() {
         try {
-            //connection to db
+            //connections to db
             conn = DriverManager.getConnection(path); // burası yanlış olursa aşağıyı yazdırmaz bile.
             System.out.println("Connect Success");
         } catch (Exception e) {
